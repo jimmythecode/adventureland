@@ -4,7 +4,7 @@
 // Just set attack_mode to true and ENGAGE!
 
 import {  change_target, get_nearest_monster, get_targeted_monster, is_moving, loot, set_message, use_hp_or_mp } from "./adventureland/runner_functions";
-import { character } from "./show_json/parent.character";
+import { character } from "../show_json/parent.character";
 
 // Open and close stand with space bar, or open_stand(slotnum) and close_stand()
 

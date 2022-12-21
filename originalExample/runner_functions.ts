@@ -1,4 +1,5 @@
 import {parent} from "../globals/parent"
+import { mssince, resolving_promise } from "../myguides/potionsOptimise";
 
 // #NOTE: If you want to see a new function/feature, just request it at: https://github.com/kaansoral/adventureland/issues
 // Or at #feedback in Discord: https://discord.gg/4SXJGU
@@ -851,7 +852,7 @@ export function use_hp_or_mp()
 		return resolving_promise({reason:"full",success:false,used:false});
 }
 
-export function loot(id_or_arg: string | true | undefined)
+export function loot(id_or_arg?: string | true | undefined)
 {
 	// loot(id) loots a specific chest
 	// loot(true) allows code characters to make their commanders' loot instead, extremely useful [14/01/18]
