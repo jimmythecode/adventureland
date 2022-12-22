@@ -1,6 +1,5 @@
-import {items} from "./items"
 
-const skills = {
+export const skills = {
 	"use_town": {
 		"explanation": "Teleports you to the center of the map.",
 		"cooldown": 0,
@@ -1420,6 +1419,3 @@ const skills = {
 		"name": "Fireball"
 	}
 }
-
-export const G = {items, skills}
-
